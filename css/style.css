@@ -1,0 +1,20 @@
+.manipulator-container {
+	width: 700px;
+	height: 200px;
+	background-color: rgb(240, 244, 248);
+}
+.manipulator {
+	width: 100%;
+    right: 0;
+    z-index: 9999;
+    height: auto;
+    padding: 50px;
+	position:fixed;
+	bottom:0;
+	background-color: rgb(240, 244, 248);
+	color: black;
+}
+
+.manipulator-container .manipulator{
+	position: relative;
+}
