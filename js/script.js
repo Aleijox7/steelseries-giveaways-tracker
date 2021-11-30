@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	console.log(document);
-	var idsGiveaways = [1828378856];
+	var idsGiveaways = [682071112];
 	var urls = {
-		1828378856 : 'https://games.steelseries.com/giveaway/1828378856/dead-by-daylight-raising-dlc-hell-key-giveaway'
+		682071112 : 'https://games.steelseries.com/giveaway/682071112/dead-by-daylight-game-key-portrait-of-a-murder-dlc-and-more-key-giveaway?utm_campaign=dbdpoam&utm_medium=tweet&utm_source=twitter&utm_content=&utm_term='
 	};
 	
 	var banner = $.get("../html/banner.html", function(response) {
